@@ -1,0 +1,42 @@
+.main-nav{
+    display: flex;
+    background: linear-gradient(to bottom,#e0e0e2, #fafafa, white);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-nav-logo{
+    flex-grow: 1;
+    margin-left: 20px;
+    
+}
+
+.main-nav-logo-img{
+    width: 50px;
+    height: 100%;
+}
+
+.main-nav-ul{
+    display : flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.main-nav-li{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.main-nav-li:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    width: 20%;
+}
+
+.main-nav-li:active{
+    font-weight: 800;
+    color: #202c62;
+}

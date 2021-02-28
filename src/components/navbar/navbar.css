@@ -1,0 +1,25 @@
+.navbar{
+    width: 12%;
+    background-color: #202c62;
+    height: 100%;
+    position: fixed;
+}
+
+.navbar-logo{
+    padding: 20px;
+    color: white;
+    flex-grow: 2;
+}
+
+.navbar-li{
+    padding: 20px 10px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.navbar-li:hover {
+    background-color: #e1261c;
+    cursor: pointer;
+}

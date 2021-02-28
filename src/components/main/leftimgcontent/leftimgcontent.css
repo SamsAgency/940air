@@ -1,0 +1,41 @@
+.leftimgcontent{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.the-left-img{
+    width: 45%;
+    overflow: hidden;
+    transition: transform .5s ease;
+}
+
+
+.content-section-image{
+    width: 100%;
+    overflow: hidden;
+}
+
+.content-section-image:hover{
+    width: 130px;
+}
+
+.content-section-image:hover  {
+    transform: scale(1.5);
+}
+
+.the-right-content{
+    width: 55%;
+    padding: 0px 20px;
+}
+
+@media (max-width: 800px){
+    .leftimgcontent{
+        display: flex;
+        flex-direction: column;
+    }
+}
