@@ -1,22 +1,13 @@
 import React from 'react'
-import './About.css'
-import Mainnav from './../mainnav/Mainnav';
-import Footer from './../main/footer/Footer';
-import AboutBanner from './About banner/AboutBanner';
-import Leftimgcontent from './../main/leftimgcontent/leftimgcontent';
-import SomeQuotes from './SomeQuotes/SomeQuotes';
-import AboutTabs from './AboutTabs/AboutTabs';
+import "./AboutTabContent.css"
 
-const About = () => {
+const AboutTabwhyus = () => {
     return (
-        <div className="about">
-            <Mainnav/>
-            <AboutBanner/>
-            <Leftimgcontent/>
-            <SomeQuotes/>
-            <AboutTabs/>
-            <h2>I am the About Component</h2>
-            <p>
+        <div className="about-tab-contents">
+            <h2 className="about-tab-contents-h2">
+                Why us
+            </h2>
+            <p className="about-tab-contents-p">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 Lorem Ipsum has been the industry's standard dummy text ever since the
                 1500s, when an unknown printer took a galley of type and scrambled it to
@@ -26,10 +17,8 @@ const About = () => {
                 sheets containing Lorem Ipsum passages, and more recently with desktop
                 publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
-            <Footer/>
-
         </div>
     )
 }
 
-export default About
+export default AboutTabwhyus

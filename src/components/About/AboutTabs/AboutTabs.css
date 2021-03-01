@@ -1,0 +1,22 @@
+.about-tabs{
+    width: 85%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.about-tabs-head{
+    display: flex;
+}
+
+.about-tab-head-button{
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    background-color: white;
+    color: #202C62;
+    font-size: 24px;
+}
+
+.about-tab-head-button:hover{
+    background-color: red;
+}

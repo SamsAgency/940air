@@ -2,6 +2,7 @@
     height: 83vh !important;
     background-image: linear-gradient(to bottom, rgba(2, 12, 70, 0.363), rgba(17, 8, 102, 0.582)),url(../../../assets/container.jpg);
     background-size: cover;
+    background-attachment: fixed;
     color: white;
 }
 
