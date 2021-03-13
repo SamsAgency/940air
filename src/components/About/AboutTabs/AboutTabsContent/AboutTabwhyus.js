@@ -17,6 +17,12 @@ const AboutTabwhyus = () => {
                 sheets containing Lorem Ipsum passages, and more recently with desktop
                 publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
+            <ul>
+                <li>Why us statement 1</li>
+                <li>Why us statement 2</li>
+                <li>Why us statement 3</li>
+                <li>Why us statement 4</li>
+            </ul>
         </div>
     )
 }

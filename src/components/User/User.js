@@ -13,7 +13,7 @@ const User = () => {
         <div className="user-component">
             <Mainnav/>
             {
-                loggedIn === true ? <UserForm/> : <UserLogin/>
+                loggedIn === true ? <UserLogin/>: <UserForm/>
             }
             <Footer/>
         </div>

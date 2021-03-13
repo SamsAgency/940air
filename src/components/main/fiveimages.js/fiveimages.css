@@ -32,6 +32,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         margin-top: 10px;
         
     }
@@ -45,5 +46,9 @@
     .five-images-right-img{
         margin-top: 10px;
         background: linear-gradient(to bottom, #021d4949, #021d49e5);
+    }
+    .five-images-left{
+        width: 80%;
+        margin: auto
     }
 }

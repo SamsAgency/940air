@@ -9,17 +9,18 @@ const leftimgcontent = () => {
                 <img className="content-section-image" src={truck} alt="shipping"/>
             </div>
             <div className="the-right-content" >
-                <h2>The title here</h2>
-                <h3>subtitle here</h3>
+                <h2>About us</h2>
+                <h3>What you need to know about us</h3>
                 <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the
-                    1500s, when an unknown printer took a galley of type and scrambled it to
-                    make a type specimen book. It has survived not only five centuries, but
-                    also the leap into electronic typesetting, remaining essentially
-                    unchanged. It was popularised in the 1960s with the release of Letraset
-                    sheets containing Lorem Ipsum passages, and more recently with desktop
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    We 940 air cargo provides logistical solutions to local Exporters, Importers and International Organizations within Africa and other parts of the world. 
+                    At Kingdom Global Logistics our Word is our Bond, Results Delivered.
+                </p>
+                <p>
+                    We subscribe to the philosophy that “Success breeds Success.” 
+                    As our partners succeed, income is increased, value is created and the long term relationship strengthens. We have assisted numerous organizations within this region.
+                </p>
+                <p>
+                    We have extensive contacts through out the region and posses the local language advantage to ensure that your business works smoothly.
                 </p>
             </div>
         </div>

@@ -9,6 +9,8 @@ import About from './components/About/About';
 import Water from './components/Water/Water';
 import Ground from './components/Ground/Ground';
 import Air from './components/Air/Air';
+import Blogs from './components/Blogs/Blogs';
+import Customer from './components/Customer/Customer';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
         <Route path="/water" component={Water}/>
         <Route path="/air" component={Air}/>
         <Route path="/Ground" component={Ground}/>
+        <Route path="/blogs" component={Blogs}/>
+        <Route path="/customer-resources" component={Customer}/>
 
         <Route component={Notfound}/>
       </Switch>

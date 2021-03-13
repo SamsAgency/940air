@@ -17,6 +17,12 @@ const AboutTabvission = () => {
                 sheets containing Lorem Ipsum passages, and more recently with desktop
                 publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
+            <ul>
+                <li>Vision statement 1</li>
+                <li>Vision statement 2</li>
+                <li>Vision statement 3</li>
+                <li>Vision statement 4</li>
+            </ul>
         </div>
     )
 }

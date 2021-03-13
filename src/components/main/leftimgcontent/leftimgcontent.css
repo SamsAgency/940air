@@ -16,21 +16,14 @@
 
 
 .content-section-image{
-    width: 100%;
+    width: 100% !important;
     overflow: hidden;
-}
-
-.content-section-image:hover{
-    width: 130px;
-}
-
-.content-section-image:hover  {
-    transform: scale(1.5);
 }
 
 .the-right-content{
     width: 55%;
     padding: 0px 20px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 @media (max-width: 800px){

@@ -1,5 +1,5 @@
 .background-image-section{
-    height: 80vh;
+    height: 70vh;
     background: linear-gradient(to bottom, #202c621c, #202c62),url(../../../assets/ship.jpg);
     background-position: center;
     background-size: cover;
@@ -36,3 +36,4 @@
 .background-img-button:hover{
     cursor: pointer
 }
+

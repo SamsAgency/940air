@@ -4,7 +4,6 @@
 
 @media( max-width: 950px) {
   .app{
-    display: flex;
-    flex-direction: column !important;
+    width: 100% !important;
   }
 }

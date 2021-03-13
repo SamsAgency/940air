@@ -1,7 +1,7 @@
 import React from 'react'
 import './Mainnav.css'
 import {NavLink} from 'react-router-dom'
-import LOGO from '../../assets/940-AIR-LOGO.png'
+import LOGO from '../../assets/940 air cargo logo.png'
 
 const Mainnav = () => {
     return (

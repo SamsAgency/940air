@@ -1,20 +1,21 @@
 import React from 'react'
 import "./BackgroundImage.css";
+import { Link } from 'react-router-dom';
 
 const BackgroundImage = () => {
     return (
         <div className="background-image-section">
             <div className="background-image-section-content">
                 <h2 className="background-image-content-h2">We are here for you</h2>
-                <p  className="background-image-content-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the
-                1500s, when an unknown printer took a galley of type and scrambled it to
-                make a type specimen book. It has survived not only five centuries, but
-                also the leap into electronic typesetting, remaining essentially
-                unchanged. It was popularised in the 1960s with the release of Letraset
-                sheets containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <button className="background-img-button">More</button>
+                <p  className="background-image-content-p">
+                    At 940 air, we thrive on delivery of quality services. 
+                    Kingdom Global Logistics Limited provides logistical solutions to local Exporters, Importers and International Organizations within Africa and other parts of the world. At Kingdom Global Logistics our Word is our Bond,
+                </p>
+                <Link to="/about">
+                    <button className="background-img-button">
+                        More
+                    </button>
+                </Link>
             </div>
         </div>
     )

@@ -1,9 +1,9 @@
 import React from 'react'
 import './fiveimages.css'
-// import truck from "../../../assets/truck-460432_1920.jpg"
-// import heli from "../../../assets/new-zealand-2998846_1920.jpg"
+import truck from "../../../assets/truck-460432_1920.jpg"
+import heli from "../../../assets/new-zealand-2998846_1920.jpg"
 import container from "../../../assets/container.jpg"
-// import shipping from "../../../assets/shipping.jpg"
+import shipping from "../../../assets/shipping.jpg"
 import planes from "../../../assets/model-planes-1566822_1920.jpg"
 
 
@@ -15,11 +15,11 @@ const fiveimages = () => {
             </div>
             <div className="five-images-right">
                 <div className='five-image-fragmentation'>
-                    <img className="five-images-right-img" src={planes} alt="sometext"/>
-                    <img className="five-images-right-img" src={planes} alt="sometext"/>
+                    <img className="five-images-right-img" src={truck} alt="sometext"/>
+                    <img className="five-images-right-img" src={heli} alt="sometext"/>
                 </div>
                 <div className='five-image-fragmentation'>
-                    <img className="five-images-right-img" src={planes} alt="sometext"/>
+                    <img className="five-images-right-img" src={shipping} alt="sometext"/>
                     <img className="five-images-right-img" src={planes} alt="sometext"/>
                 </div>
             </div>
